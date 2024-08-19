@@ -2,6 +2,8 @@ import React from "react";
 import {Header} from "./header.jsx";
 import {Card} from "./Card.jsx";
 import { Footer01 } from "./Footer01.jsx";
+import { NavBar1 } from "./NavBar1.jsx";
+
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -10,6 +12,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="container">
+      <NavBar1 />
 			<Header />
     		<div className="d-flex">
 				<Card title="Adaptability" description="Adaptability is the ability to adjust and thrive in changing circumstances, and it is essential to navigating the complexities of life." />
