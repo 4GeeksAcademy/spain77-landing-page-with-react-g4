@@ -1,11 +1,14 @@
 import React from "react";
 import { Footer01 } from "./Footer01.jsx";
+import { NavBar1 } from "./NavBar1.jsx";
+
 
 //create your first component
 const Home = () => {
 	return (
-
-		<Footer01 />
+		<NavBar1/>
+		<Footer01/>
+		
 
 	);
 };
